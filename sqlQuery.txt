@@ -1,0 +1,1 @@
+select Department.dname,count(empno) as numberOfEmployees where Department.depno group by employee.depno
